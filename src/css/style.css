@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.paginas-0{
+    background-color: #007AFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    padding: 1.5rem 0 0 0;
+}
+
+.paginas-1{
+    background-color: #FF2C55;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 5rem;
+    padding: 0 0 1.5rem 0;
+
+}
+
+.paginas-2{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0 0 1.5rem 0;
+
+}
+
+.paginas-3{
+    background-color: #FEB800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse ;
+    gap: 5rem;
+    padding: 1.5rem 0 0 0;
+}
+
+.paginas-4{
+    background-color: #7000FF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1.5rem 0 0 0;
+
+}
+
+/*SEGUNDA PARTE*/
+.cardContenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContenedor_div{
+
+    background-color: #F2F2F3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3rem 0;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_lista{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+.footer_icono{
+    display: flex;
+    gap: 1rem;
+}
