@@ -6,7 +6,7 @@ function SegundaParte(){
 
     const [cards, setCards] = useState ([]);
 
-    const {VITE_URL_DOS} = import.meta.env;
+    const {VITE_DOS} = import.meta.env;
 
     useEffect( () => {
 
@@ -19,7 +19,7 @@ function SegundaParte(){
             signal : controller.signal
         }
 
-        fetch(VITE_URL_DOS, options)
+        fetch(VITE_DOS, options)
         .then(res => res.json())
         .then( data => setCards(data))
         .catch(err => console.log(err))

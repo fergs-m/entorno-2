@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 function PrimeraParte() {
     
     const [paginas,setPaginas] = useState([]); 
-    const { VITE_URL_API } = import.meta.env;
+    const { VITE_API } = import.meta.env;
 
     useEffect( () => {
 
@@ -18,7 +18,7 @@ function PrimeraParte() {
           signal : controller.signal
         }
 
-        fetch(VITE_URL_API, options)
+        fetch(VITE_API, options)
         .then( res => res.json())
         .then(data => setPaginas(data))
         .catch(err => console.log(err))
